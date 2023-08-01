@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  &__card_trip__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  &__wrapper{
+    h2 {
+      margin-top: 45px;
+      font-size: 28px;
+      color: #1B1B1B;
+      font-weight: 500;
+      span {
+        font-weight: 700;
+      }
+    }
+    button {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 227px;
+      height: 205px;
+      border-style: none;
+      cursor: pointer;
+      background: #F2F4F8;
+      font-weight: 500;
+      font-size: 20px;
+      transition: 0.2s;
+      margin-right: 100px;
+      .plus {
+        font-size: 30px;
+      }
+      &:hover {
+        background: #2aff4b;
+        transition: 0.2s;
+        .plus {
+          animation: 0.3s linear 0s plusAnim;
+        }
+      }
+    }
+  }
+}
+@keyframes plusAnim {
+  25% {
+    transform: rotate(-9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(9deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}

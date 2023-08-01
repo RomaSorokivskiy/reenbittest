@@ -1,0 +1,27 @@
+.card_trip {
+  width: 227px;
+  transition: .4s;
+  cursor: pointer;
+  .img {
+    width: 100%;
+    background: #12Fa23;
+    height: 205px;
+  }
+  h4 {
+    font-weight: 500;
+    margin-left: 20px;
+  }
+  h5 {
+    margin-left: 20px;
+    color: #C6C6C6;
+    font-weight: 400;
+  }
+  border-style: solid;
+  border-color: #d5d5d5;
+  border-width: 1px;
+  &:hover {
+    border-color: #62aaff;
+    transition: .4s;
+
+  }
+}

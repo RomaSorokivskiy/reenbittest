@@ -1,0 +1,23 @@
+.search_bar {
+  margin-top: 55px;
+  position: relative;
+  input {
+    width: 245px;
+    height: 60px;
+    border-style: none;
+    background: #F2F4F8;
+    border-radius: 15px;
+    font-size: 16px;
+    padding-left: 45px;
+    &::placeholder {
+      color:#3D3E3E;
+      font-weight: 700;
+    }
+  }
+  label {
+    font-size: 26px;
+    position: absolute;
+    top: 27%;
+    left: 10px;
+  }
+}
