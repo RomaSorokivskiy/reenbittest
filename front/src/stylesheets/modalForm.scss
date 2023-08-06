@@ -77,5 +77,16 @@
       border-color: #62aaff;
       color: #FFFFFF;
     }
+    .unsave {
+      background: #c9c9c9;
+      cursor: not-allowed;
+    }
+  }
+  p {
+    top: 70%;
+    position: absolute;
+    font-size: 12px;
+    left: 25px;
+    color: #ff4546;
   }
 }

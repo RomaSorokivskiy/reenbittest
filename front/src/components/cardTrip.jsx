@@ -1,13 +1,13 @@
 import "../stylesheets/cardTrip.scss"
 
-const CardTrip = () => {
+const CardTrip = ({props}) => {
     return(
         <div className="card_trip">
             <div className="img">
 
             </div>
-            <h4>Berlin</h4>
-            <h5>14.07.2023 - 21.07.2023</h5>
+            <h4>{props.city}</h4>
+            <h5>{props.firstDate} - {props.secondDate}</h5>
         </div>
     )
 }

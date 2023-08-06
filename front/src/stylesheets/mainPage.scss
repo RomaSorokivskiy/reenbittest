@@ -6,6 +6,10 @@
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
+    .cards {
+      display: flex;
+      gap: 20px;
+    }
   }
   &__wrapper{
     h2 {
@@ -30,7 +34,8 @@
       font-weight: 500;
       font-size: 20px;
       transition: 0.2s;
-      margin-right: 100px;
+      margin-left: 20px;
+      margin-right: 25px;
       .plus {
         font-size: 30px;
       }
